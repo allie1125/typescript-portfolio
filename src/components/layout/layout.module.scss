@@ -1,0 +1,13 @@
+@use '../../styles/colors';
+
+.layoutWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+  background-color: colors.$THEME;
+
+  main {
+    width: 100%;
+  }
+}

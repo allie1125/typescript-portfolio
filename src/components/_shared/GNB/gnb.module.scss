@@ -1,0 +1,23 @@
+.gnb {
+  width: 100%;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px 0;
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+
+    li {
+      padding: 0 20px;
+      margin: 0;
+      font-family: 'Noto Sans';
+      font-size: 18px;
+      font-weight: 600;
+      list-style: none;
+      list-style-type: none;
+    }
+  }
+}
